@@ -1,0 +1,17 @@
+{
+  "name": "@ig-notify/producer-example",
+  "version": "0.0.1",
+  "description": "A simple notification microservice",
+  "author": "ericknathan",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "kafkajs": "^2.2.3"
+  }
+}
