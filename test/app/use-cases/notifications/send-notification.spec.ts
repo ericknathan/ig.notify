@@ -7,7 +7,7 @@ describe('Send Notification', () => {
     const sendNotification = new SendNotification(notificationsRepository);
 
     const { notification } = await sendNotification.execute({
-      content: 'This is a notification',
+      content: 'Nova solicitação de amizade',
       category: 'social',
       recipientId: 'example-recipient-id',
     });
